@@ -1,0 +1,5 @@
+Ketiga kode tersebut membentuk satu sistem terpadu untuk mendeteksi jalur rel kereta menggunakan kombinasi metode klasik dan kecerdasan buatan. 
+Code 1 menggunakan Canny Edge Detection untuk menyoroti tepi atau garis pada gambar rel melalui proses Gaussian Blur dan deteksi kontur, menghasilkan citra tepi yang menampilkan struktur fisik rel. 
+Code 2 menggunakan model YOLOv8 Instance Segmentation untuk mengenali dan menandai jalur rel secara otomatis berdasarkan pembelajaran mendalam, menghasilkan citra dengan area segmentasi rel yang jelas. 
+Code 3 menggabungkan kedua pendekatan tersebut — hasil YOLO dengan hasil Canny — untuk menghasilkan visualisasi yang lebih lengkap, di mana struktur fisik rel diperjelas dengan deteksi tepi sementara area rel tetap teridentifikasi secara semantik. 
+Secara keseluruhan, sistem ini mampu memberikan deteksi rel yang lebih akurat dan informatif, serta berpotensi digunakan untuk inspeksi otomatis dan analisis kondisi rel berbasis AI.
